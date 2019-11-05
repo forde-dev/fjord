@@ -1,39 +1,38 @@
 [gd_scene load_steps=55 format=2]
 
 [ext_resource path="res://assets/tileset/tileset.png" type="Texture" id=1]
-[ext_resource path="res://Scripts/player.gd" type="Script" id=2]
-[ext_resource path="res://assets/player/Action_01.png" type="Texture" id=3]
-[ext_resource path="res://assets/player/Action_02.png" type="Texture" id=4]
-[ext_resource path="res://assets/player/Action_03.png" type="Texture" id=5]
-[ext_resource path="res://assets/player/Action_04.png" type="Texture" id=6]
-[ext_resource path="res://assets/player/Action_05.png" type="Texture" id=7]
-[ext_resource path="res://assets/player/Action_06.png" type="Texture" id=8]
-[ext_resource path="res://assets/player/Action_07.png" type="Texture" id=9]
-[ext_resource path="res://assets/player/Action_08.png" type="Texture" id=10]
-[ext_resource path="res://assets/player/Action_09.png" type="Texture" id=11]
-[ext_resource path="res://assets/player/Action_10.png" type="Texture" id=12]
-[ext_resource path="res://assets/player/Action_11.png" type="Texture" id=13]
-[ext_resource path="res://assets/player/Action_12.png" type="Texture" id=14]
-[ext_resource path="res://assets/player/Action_13.png" type="Texture" id=15]
-[ext_resource path="res://assets/player/Action_14.png" type="Texture" id=16]
-[ext_resource path="res://assets/player/Action_15.png" type="Texture" id=17]
-[ext_resource path="res://assets/player/Action_16.png" type="Texture" id=18]
-[ext_resource path="res://assets/player/Action_17.png" type="Texture" id=19]
-[ext_resource path="res://assets/player/Action_18.png" type="Texture" id=20]
-[ext_resource path="res://assets/player/Action_19.png" type="Texture" id=21]
-[ext_resource path="res://assets/player/Action_20.png" type="Texture" id=22]
-[ext_resource path="res://assets/player/Idle_01.png" type="Texture" id=23]
-[ext_resource path="res://assets/player/Idle_02.png" type="Texture" id=24]
-[ext_resource path="res://assets/player/Idle_03.png" type="Texture" id=25]
-[ext_resource path="res://assets/player/Idle_04.png" type="Texture" id=26]
-[ext_resource path="res://assets/player/Idle_05.png" type="Texture" id=27]
-[ext_resource path="res://assets/player/Walk_01.png" type="Texture" id=28]
-[ext_resource path="res://assets/player/Walk_02.png" type="Texture" id=29]
-[ext_resource path="res://assets/player/Walk_03.png" type="Texture" id=30]
-[ext_resource path="res://assets/player/Walk_04.png" type="Texture" id=31]
-[ext_resource path="res://assets/player/Walk_05.png" type="Texture" id=32]
-[ext_resource path="res://assets/player/Walk_06.png" type="Texture" id=33]
-[ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=34]
+[ext_resource path="res://assets/player/Action_01.png" type="Texture" id=2]
+[ext_resource path="res://assets/player/Action_02.png" type="Texture" id=3]
+[ext_resource path="res://assets/player/Action_03.png" type="Texture" id=4]
+[ext_resource path="res://assets/player/Action_04.png" type="Texture" id=5]
+[ext_resource path="res://assets/player/Action_05.png" type="Texture" id=6]
+[ext_resource path="res://assets/player/Action_06.png" type="Texture" id=7]
+[ext_resource path="res://assets/player/Action_07.png" type="Texture" id=8]
+[ext_resource path="res://assets/player/Action_08.png" type="Texture" id=9]
+[ext_resource path="res://assets/player/Action_09.png" type="Texture" id=10]
+[ext_resource path="res://assets/player/Action_10.png" type="Texture" id=11]
+[ext_resource path="res://assets/player/Action_11.png" type="Texture" id=12]
+[ext_resource path="res://assets/player/Action_12.png" type="Texture" id=13]
+[ext_resource path="res://assets/player/Action_13.png" type="Texture" id=14]
+[ext_resource path="res://assets/player/Action_14.png" type="Texture" id=15]
+[ext_resource path="res://assets/player/Action_15.png" type="Texture" id=16]
+[ext_resource path="res://assets/player/Action_16.png" type="Texture" id=17]
+[ext_resource path="res://assets/player/Action_17.png" type="Texture" id=18]
+[ext_resource path="res://assets/player/Action_18.png" type="Texture" id=19]
+[ext_resource path="res://assets/player/Action_19.png" type="Texture" id=20]
+[ext_resource path="res://assets/player/Action_20.png" type="Texture" id=21]
+[ext_resource path="res://assets/player/Idle_01.png" type="Texture" id=22]
+[ext_resource path="res://assets/player/Idle_02.png" type="Texture" id=23]
+[ext_resource path="res://assets/player/Idle_03.png" type="Texture" id=24]
+[ext_resource path="res://assets/player/Idle_04.png" type="Texture" id=25]
+[ext_resource path="res://assets/player/Idle_05.png" type="Texture" id=26]
+[ext_resource path="res://assets/player/Walk_01.png" type="Texture" id=27]
+[ext_resource path="res://assets/player/Walk_02.png" type="Texture" id=28]
+[ext_resource path="res://assets/player/Walk_03.png" type="Texture" id=29]
+[ext_resource path="res://assets/player/Walk_04.png" type="Texture" id=30]
+[ext_resource path="res://assets/player/Walk_05.png" type="Texture" id=31]
+[ext_resource path="res://assets/player/Walk_06.png" type="Texture" id=32]
+[ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=33]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 32, 96, 32, 96, 128, 0, 128 )
@@ -351,29 +350,122 @@ points = PoolVector2Array( 0, 32, 64, 32, 64, 96, 0, 96 )
 } ]
 16/z_index = 0
 
-[sub_resource type="SpriteFrames" id=18]
+[sub_resource type="GDScript" id=18]
+script/source = "\"\"\"
+Player script
+\"\"\"
+extends KinematicBody2D
+
+export (int) var run_speed: int = 100
+export (int) var jump_speed: int = -400
+export (int) var gravity: int = 1200
+
+var velocity: Vector2 = Vector2()
+var jumping: bool = false
+
+
+func play_animation(animation: String, flip=null) -> void:
+	\"\"\"
+	Play Animation is used to change or flip an animated
+	sprite, max possible arguments is 2
+	
+	animation:
+		type: string
+		description:
+			reference to the animation to play
+	flip:
+		type: optionally boole
+		description:
+			flips sprite horizontally if true
+	
+	returns:
+		void
+	\"\"\"
+	if not $Sprite.is_playing():
+		$Sprite.play(animation)
+	
+	if $Sprite.animation != animation:
+		$Sprite.animation = animation
+
+	if flip != null:
+		if flip:
+			$Sprite.flip_h = true
+		else:
+			$Sprite.flip_h = false
+	
+
+func get_input() -> void:
+	\"\"\"
+	Get Input takes the input from the user in order to control
+	the player
+	
+	returns:
+		void
+	\"\"\"
+	velocity.x = 0
+	var right = Input.is_action_pressed('ui_right')
+	var left = Input.is_action_pressed('ui_left')
+	var jump = Input.is_action_just_pressed('ui_select')
+
+	if jump and is_on_floor():
+		jumping = true
+		velocity.y = jump_speed
+
+	if right:
+		velocity.x += run_speed
+		play_animation('walk', false)
+
+	if left:
+		play_animation('walk', true)
+		velocity.x -= run_speed
+	
+	if velocity.x == 0:
+		play_animation('idle')
+
+
+func _physics_process(delta: float) -> void:
+	\"\"\"
+	Physics Process is a standard function used to process physics
+	of the game
+	
+	delta:
+		type: float
+		description:
+			lenght of time to process last freme
+	
+	returns:
+		void
+	\"\"\"
+	get_input()
+	velocity.y += gravity * delta
+	if jumping and is_on_floor():
+		jumping = false
+	velocity = move_and_slide(velocity, Vector2(0, -1))
+	"
+
+[sub_resource type="SpriteFrames" id=19]
 animations = [ {
-"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "action",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ) ],
+"frames": [ ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ) ],
 "loop": true,
 "name": "walk",
 "speed": 5.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=19]
+[sub_resource type="CapsuleShape2D" id=20]
 radius = 8.29562
 height = 30.7678
 
-[sub_resource type="LargeTexture" id=20]
+[sub_resource type="LargeTexture" id=21]
 
 [node name="Node" type="Node"]
 
@@ -386,26 +478,29 @@ tile_data = PoolIntArray( -720895, 536870915, 0, -458761, 536870915, 0, -524287,
 
 [node name="Player" type="KinematicBody2D" parent="."]
 position = Vector2( 492, 372 )
-script = ExtResource( 2 )
+script = SubResource( 18 )
 
 [node name="Sprite" type="AnimatedSprite" parent="Player"]
 position = Vector2( -0.121975, -3.0181 )
-frames = SubResource( 18 )
+frames = SubResource( 19 )
 animation = "action"
-frame = 7
+frame = 10
 playing = true
 
 [node name="Collision" type="CollisionShape2D" parent="Player"]
 visible = false
 position = Vector2( -1.37592, 3.91624 )
-shape = SubResource( 19 )
+shape = SubResource( 20 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="clouds" type="ParallaxLayer" parent="ParallaxBackground"]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/clouds"]
-texture = SubResource( 20 )
+texture = SubResource( 21 )
 
-[node name="Enemy" parent="." instance=ExtResource( 34 )]
+[node name="Enemy" parent="." instance=ExtResource( 33 )]
 position = Vector2( 772.692, 195.894 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 33 )]
+position = Vector2( 35.9726, 165.35 )
