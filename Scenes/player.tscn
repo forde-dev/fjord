@@ -1,7 +1,7 @@
-[gd_scene load_steps=54 format=2]
+[gd_scene load_steps=55 format=2]
 
 [ext_resource path="res://assets/tileset/tileset.png" type="Texture" id=1]
-[ext_resource path="res://player.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/player.gd" type="Script" id=2]
 [ext_resource path="res://assets/player/Action_01.png" type="Texture" id=3]
 [ext_resource path="res://assets/player/Action_02.png" type="Texture" id=4]
 [ext_resource path="res://assets/player/Action_03.png" type="Texture" id=5]
@@ -33,6 +33,7 @@
 [ext_resource path="res://assets/player/Walk_04.png" type="Texture" id=31]
 [ext_resource path="res://assets/player/Walk_05.png" type="Texture" id=32]
 [ext_resource path="res://assets/player/Walk_06.png" type="Texture" id=33]
+[ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=34]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 32, 96, 32, 96, 128, 0, 128 )
@@ -390,8 +391,8 @@ script = ExtResource( 2 )
 [node name="Sprite" type="AnimatedSprite" parent="Player"]
 position = Vector2( -0.121975, -3.0181 )
 frames = SubResource( 18 )
-animation = "walk"
-frame = 1
+animation = "action"
+frame = 7
 playing = true
 
 [node name="Collision" type="CollisionShape2D" parent="Player"]
@@ -405,3 +406,6 @@ shape = SubResource( 19 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/clouds"]
 texture = SubResource( 20 )
+
+[node name="Enemy" parent="." instance=ExtResource( 34 )]
+position = Vector2( 772.692, 195.894 )
