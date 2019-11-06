@@ -484,7 +484,7 @@ script = SubResource( 18 )
 position = Vector2( -0.121975, -3.0181 )
 frames = SubResource( 19 )
 animation = "action"
-frame = 10
+frame = 19
 playing = true
 
 [node name="Collision" type="CollisionShape2D" parent="Player"]

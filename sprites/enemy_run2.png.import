@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sDead_strip2_0000_Layer-1.png-fd3273c01073891cced32c3b876695d1.stex"
+path="res://.import/enemy_run2.png-d1e25c67ed7464192c6fc2726f391628.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/sDead_strip2_0000_Layer-1.png"
-dest_files=[ "res://.import/sDead_strip2_0000_Layer-1.png-fd3273c01073891cced32c3b876695d1.stex" ]
+source_file="res://sprites/enemy_run2.png"
+dest_files=[ "res://.import/enemy_run2.png-d1e25c67ed7464192c6fc2726f391628.stex" ]
 
 [params]
 

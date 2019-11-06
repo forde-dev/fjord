@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sEnemyR_strip4_0001_Layer-2.png-88224c419b3b548c0ab29c8157043166.stex"
+path="res://.import/enemy_run3.png-2580ace3f268964d690f749fb3fbe616.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/sEnemyR_strip4_0001_Layer-2.png"
-dest_files=[ "res://.import/sEnemyR_strip4_0001_Layer-2.png-88224c419b3b548c0ab29c8157043166.stex" ]
+source_file="res://sprites/enemy_run3.png"
+dest_files=[ "res://.import/enemy_run3.png-2580ace3f268964d690f749fb3fbe616.stex" ]
 
 [params]
 

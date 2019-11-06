@@ -1,12 +1,19 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Scripts/Enemy.gd" type="Script" id=1]
-[ext_resource path="res://Sprites/sEnemy.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/sEnemyR_strip4_0003_Layer-0.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/sEnemyR_strip4_0000_Layer-1.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/sEnemyR_strip4_0001_Layer-2.png" type="Texture" id=5]
-[ext_resource path="res://Sprites/sEnemyR_strip4_0002_Layer-3.png" type="Texture" id=6]
-[ext_resource path="res://Sprites/sDead_strip2_0000_Layer-1.png" type="Texture" id=7]
+[ext_resource path="res://scripts/enemy.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/enemy.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/enemy_run.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/enemy_run1.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/enemy_run2.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/enemy_run3.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/dead_enemy.png" type="Texture" id=7]
+
+
+
+
+
+
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
